@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+html,body {
+    font-family: "Microsoft Yahei" ;
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    height: 90px;
+    background-color: #444;
+}
+.logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 120px;
+}
+.daohan{
+    float: right;
+    margin-right: 25px;
+    padding-top: 25px;
+}
+
+.daohan li {
+    /*display: ;*/
+
+   display: inline;
+}
+
+.daohan li a {
+    color: red;
+}
+
+.daohan li a:visited {
+    color: blue;
+}
+
+.daohan li a:hover {
+    color: green;
+}
+
+.daohan li a:link {
+    color: yellow;
+}
+
+.daohan li a:active {
+    color: silver;
+}
+.first{
+
+    background-color: #ddd;
+    padding: 20px;
+}
+.pages {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #888;
+    margin-bottom: 0;
+}
+
+.pages:last-of-type {
+    margin-top: 0;
+}
+
+.pages > h1 {
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.pages > h2 {
+    font-size: 34px;
+    line-height: 2.5;
+}
+
+.pages > span {
+    color: #777;
+}
+
+.pages > p {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+
+.pagePicture {
+    margin: 15px 0;
+}
+
+.pages > ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.pages  table{
+     border: 1px solid  white;
+     width: 100%;
+     border-spacing: 0;
+ }
+.pages > ul > li {
+    line-height: 1.5;
+}
+.pages  tr  th{
+    background-color: black;
+    color: white;
+}
+
+.rank > ol{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.rank > table{
+    font-size: 25px;
+}
+.end{
+    background-color: #cccccc;
+}
+.celan{
+    margin: 20px;
+    border:0;
+    padding: 10px;
+    border-left: 3px solid #cccccc;
+}
+
+.pages img {
+    width: 800px;
+}
+
+@media screen and (max-width: 882px) {
+    .pages img {
+        width: 100%;
+    }
+}
+.ta{
+    background-color: white;
+    width: 100%;
+}
+.ta tr td:first-child {
+    text-align: right;
+}
+.ta p{
+    color: #cccccc;
+}
+.ta tr td{
+    padding: 5px;
+    padding-left: 20px;
+}
+.inp{
+    background-color: #3355D0;
+    padding: 5px;
+    border-radius: 25px;
+
+    width: 100%;
+    text-align: center;
+}
+.inp{
+    color: white;
+}
+
+.x{
+   width: 90%;
+   height: 100px;
+}
